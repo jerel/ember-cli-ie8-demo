@@ -4,8 +4,8 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp({
 	vendorFiles: {
-		'es5-shim.js': 'vendor/es5-shim/es5-shim.js',
-		'es5-sham.js': 'vendor/es5-shim/es5-sham.js'
+		'es5-shim.js': 'bower_components/es5-shim/es5-shim.js',
+		'es5-sham.js': 'bower_components/es5-shim/es5-sham.js'
 	}
 });
 
